@@ -1,0 +1,11 @@
+server:
+    error:
+        include-stacktrace: NEVER
+
+spring:
+    application:
+        name: devprices
+
+    profiles:
+        active:
+            - dev
